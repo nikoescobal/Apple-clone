@@ -1,0 +1,52 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Nav */
+
+nav {
+  margin-top: 80px;
+}
+
+nav ul {
+  width: 980px;
+  padding: 8px 0;
+  list-style: none;
+  background-color: gray;
+  border-radius: 3px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: transparent;
+}
+
+/* Generic Classes  */
+
+.flex {
+  display: flex;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.m-0-auto {
+  margin: 0 auto;
+}
