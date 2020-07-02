@@ -14,25 +14,52 @@ nav {
 
 nav ul {
   width: 980px;
-  padding: 8px 0;
+  /* padding: 8px 0; */
   list-style: none;
   background-color: gray;
   border-radius: 3px;
 }
 
+nav ul li {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 100%;
+  /* padding: 8px 0; */
+  text-align: center;
+}
+
 nav ul a {
   text-decoration: none;
   color: white;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  /* border: 1px dashed red; */
+  padding: 8px 0;
 }
 
-button {
+nav ul button {
   background: transparent;
+  width: 80%;
+  border: none;
+}
+
+nav ul li:nth-last-child(n + 2) {
+  border-right: 2px solid red;
 }
 
 /* Generic Classes  */
 
 .flex {
   display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 1.4;
 }
 
 .space-around {
@@ -49,4 +76,8 @@ button {
 
 .m-0-auto {
   margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
 }
