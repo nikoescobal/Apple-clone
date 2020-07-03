@@ -88,11 +88,36 @@ header section {
 }
 
 header h1,
-header h2 {
+header h2,
+header h3 {
   font-weight: 300;
 }
 
+h3 a {
+  text-decoration: none;
+}
+
+h3 a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 500px;
+}
+
 /* Generic Classes  */
+
+.float-item {
+  float: left;
+  width: 25%;
+}
+
+.float-item img {
+  width: 100%;
+}
 
 .flex {
   display: flex;
@@ -104,6 +129,10 @@ header h2 {
 
 .flex-2 {
   flex: 1.4;
+}
+
+.grid {
+  display: grid;
 }
 
 .space-around {
