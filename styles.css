@@ -14,11 +14,9 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+footer a:hover {
   text-decoration: underline;
 }
-
-/* Nav */
 
 nav {
   padding-top: 80px;
@@ -49,7 +47,7 @@ nav ul li {
   text-align: center;
 }
 
-nav ul li:hover {
+nav ul li:nth-last-child(n + 2):hover {
   background: #3c3c3c;
 }
 
@@ -61,7 +59,7 @@ nav ul a {
   padding: 8px 0;
 }
 
-nav ul a:hover {
+header a:hover {
   text-decoration: none;
 }
 
@@ -80,7 +78,6 @@ nav ul li:nth-last-child(n + 2) {
   box-shadow: inset 1px 0px 0px hsl(0, 0%, 60%);
 }
 
-/* Header */
 header {
   height: 80vh;
   background: url(assets/hero.jpg);
@@ -108,7 +105,10 @@ header h3 {
   font-size: 24px;
 }
 
-/* Float container */
+header h3:hover {
+  text-decoration: underline;
+}
+
 #float-container {
   margin: 2px 0;
 }
@@ -126,8 +126,6 @@ header h3 {
   width: 100%;
 }
 
-/* Footer */
-
 footer div {
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: 30px;
@@ -140,7 +138,6 @@ footer a {
   color: #1c90cf;
   vertical-align: top;
 }
-/* Generic Classes  */
 
 .flex {
   display: flex;
