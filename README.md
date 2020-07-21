@@ -25,11 +25,11 @@ The aim of this project was to build a clone of the Apple page utilizing backgro
 - Twitter:[@elpotatoslayer](https://twitter.com/elpotatoslayer)
 - LinkedIn:[@Chad Van Wyk](https://www.linkedin.com/in/chad-van-wyk-4228b21a6/?originalSubdomain=za)
 
-👤 **Nikolas Eskobal**
+👤 **Nikolas Escobal**
 
 - Github:[@nikoescobal](https://github.com/nikoescobal/Youtubeclone-muhammed-niko/commits?author=nikoescobal)
 - Twitter:[@nikoescobal](https://twitter.com/nikoescobal)
-- LinkedIn:[Nikolas Escobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)
+- LinkedIn:[@Nikolas Escobal](https://www.linkedin.com/in/nikolas-joseph-escobal/)
 
 ## 🤝 Contributing
 
